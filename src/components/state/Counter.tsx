@@ -1,5 +1,4 @@
 import {useReducer} from "react";
-import * as zlib from "zlib";
 
 type CounterState = {
     count: number;
