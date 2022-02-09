@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import RandomNumber from "./components/restriction/RandomNumber";
+import Toast from "./components/templateliterals/Toast";
 
 function App() {
 
     return (
         <div className="App">
-            <RandomNumber value={10} isPositive={true}></RandomNumber>
+            <Toast position={"center"}></Toast>
         </div>
     );
 }
