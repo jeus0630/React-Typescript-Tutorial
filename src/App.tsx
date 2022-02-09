@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Toast from "./components/templateliterals/Toast";
+import Button from "./components/html/Button";
 
 function App() {
 
     return (
         <div className="App">
-            <Toast position={"center"}></Toast>
+            <Button variant={"primary"} onClick={()=>console.log('Clicked')}>Primary Button</Button>
         </div>
     );
 }
